@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Naohisa Hashimoto | メディア産業 財務・市場分析ダッシュボード</title>
+<meta name="description" content="放送・映像・IPビジネスの構造転換を、公表一次資料にもとづく定量分析で可視化するダッシュボード集。日本の民放キー局の収益構造転換、欧米Super-Indiesの財務比較、世界のスマートテレビ／CTV市場、メディア各社のコスト構造を公開しています。">
+<meta name="keywords" content="メディア産業, 放送, 民放キー局, コンテンツビジネス, IP, スマートテレビ, Connected TV, Super Indies, 財務分析, 市場分析, データダッシュボード, media industry, broadcasting, financial analysis, dashboard">
+<meta name="author" content="Naohisa Hashimoto">
+<link rel="canonical" href="https://naohisastry.github.io/">
+
+<meta property="og:title" content="Naohisa Hashimoto | メディア産業 財務・市場分析ダッシュボード">
+<meta property="og:description" content="放送・映像・IPビジネスの構造転換を、公表一次資料にもとづく定量分析で可視化するダッシュボード集。">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="naohisastry dashboards">
+<meta property="og:url" content="https://naohisastry.github.io/">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Naohisa Hashimoto | メディア産業 財務・市場分析ダッシュボード">
+<meta name="twitter:description" content="放送・映像・IPビジネスの構造転換を、公表一次資料にもとづく定量分析で可視化するダッシュボード集。">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Naohisa Hashimoto | メディア産業 財務・市場分析ダッシュボード",
+  "url": "https://naohisastry.github.io/",
+  "description": "放送・映像・IPビジネスの構造転換を、公表一次資料にもとづく定量分析で可視化するダッシュボード集。",
+  "inLanguage": "ja",
+  "author": {
+    "@type": "Person",
+    "name": "Naohisa Hashimoto",
+    "url": "https://github.com/naohisastry"
+  },
+  "hasPart": [
+    {"@type":"WebApplication","name":"世界のスマートテレビ / Connected TV 市場ダッシュボード","url":"https://naohisastry.github.io/global-smart-tv-market-dashboard/","applicationCategory":"BusinessApplication","operatingSystem":"Web"},
+    {"@type":"WebApplication","name":"グローバル・メガスタジオ (Super-Indies) 財務分析ダッシュボード","url":"https://naohisastry.github.io/global-mega-studios-dashboard/","applicationCategory":"BusinessApplication","operatingSystem":"Web"},
+    {"@type":"WebApplication","name":"日本の民放キー局 財務分析ダッシュボード","url":"https://naohisastry.github.io/japan-tv-networks-financial-dashboard/","applicationCategory":"BusinessApplication","operatingSystem":"Web"},
+    {"@type":"WebApplication","name":"TV-Shift 2035 収益構造転換シミュレーション","url":"https://naohisastry.github.io/japan-commercial-tv-shift-2035/","applicationCategory":"BusinessApplication","operatingSystem":"Web"},
+    {"@type":"WebApplication","name":"メディア & IP 財務コスト構造ダッシュボード","url":"https://naohisastry.github.io/media-ip-financial-dashboard/","applicationCategory":"BusinessApplication","operatingSystem":"Web"},
+    {"@type":"WebApplication","name":"提案型転職 5タイプ価値観診断ツール","url":"https://naohisastry.github.io/proactive-career-diagnosis/","applicationCategory":"BusinessApplication","operatingSystem":"Web"}
+  ]
+}
+</script>
+
+<style>
+:root{
+  --bg:#0b0f19; --card:#161c2c; --card2:#1b2234;
+  --tx:#f3f4f6; --tx2:#9ca3af; --tx3:#6b7280;
+  --cy:#06b6d4; --pp:#8b5cf6; --bd:#2d3748;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:'Segoe UI','Hiragino Sans','Noto Sans JP',system-ui,sans-serif;
+  background:var(--bg); color:var(--tx); line-height:1.7;
+  padding:2.5rem 1.5rem 4rem;
+}
+.wrap{max-width:1100px;margin:0 auto}
+
+header{border-bottom:1px solid var(--bd);padding-bottom:2rem;margin-bottom:2.5rem}
+h1{
+  font-size:clamp(1.6rem,4vw,2.4rem);line-height:1.35;font-weight:700;
+  background:linear-gradient(135deg,#fff 20%,var(--cy));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+  margin-bottom:.6rem;
+}
+.lede{color:var(--tx2);font-size:1.02rem;max-width:64ch}
+.lede strong{color:var(--tx);font-weight:600}
+.byline{margin-top:1.1rem;font-size:.9rem;color:var(--tx3)}
+.byline a{color:var(--cy);text-decoration:none;border-bottom:1px solid transparent}
+.byline a:hover{border-bottom-color:var(--cy)}
+
+h2{font-size:1.1rem;font-weight:700;margin:2.6rem 0 1.1rem;letter-spacing:.02em}
+h2 .en{color:var(--tx3);font-weight:400;font-size:.85rem;margin-left:.6rem}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.1rem}
+.card{
+  background:var(--card);border:1px solid var(--bd);border-radius:10px;
+  padding:1.3rem 1.35rem;text-decoration:none;color:inherit;display:flex;flex-direction:column;
+  transition:border-color .18s,background .18s,transform .18s;
+}
+.card:hover{border-color:var(--cy);background:var(--card2);transform:translateY(-2px)}
+.card .period{font-size:.74rem;color:var(--cy);letter-spacing:.06em;font-weight:600;margin-bottom:.45rem}
+.card h3{font-size:1.02rem;font-weight:700;line-height:1.45;margin-bottom:.55rem}
+.card p{font-size:.87rem;color:var(--tx2);flex:1}
+.tags{margin-top:.9rem;display:flex;flex-wrap:wrap;gap:.35rem}
+.tag{font-size:.71rem;color:var(--tx3);border:1px solid var(--bd);border-radius:999px;padding:.14rem .6rem}
+
+.note-box{
+  background:var(--card);border:1px solid var(--bd);border-left:3px solid var(--pp);
+  border-radius:8px;padding:1.2rem 1.35rem;
+}
+.note-box p{color:var(--tx2);font-size:.9rem}
+.note-box a{color:var(--cy);text-decoration:none}
+.note-box a:hover{text-decoration:underline}
+
+footer{margin-top:3.5rem;padding-top:1.5rem;border-top:1px solid var(--bd);color:var(--tx3);font-size:.82rem}
+footer a{color:var(--tx2);text-decoration:none}
+footer a:hover{color:var(--cy)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>メディア産業の構造転換を、<br>データで可視化する</h1>
+  <p class="lede">
+    放送・映像制作・IPビジネスが、旧来の収益モデルから次の形へ移り変わろうとしています。
+    ここでは、その変化を<strong>公表一次資料にもとづく定量分析</strong>として可視化したインタラクティブ・ダッシュボードを公開しています。
+    すべてのデータ点に、有価証券報告書・決算説明資料・SEC Form 10-K などの出典リンクを付与しています。
+  </p>
+  <p class="byline">
+    Naohisa Hashimoto ・
+    <a href="https://github.com/naohisastry">GitHub</a>
+    <!-- TODO(Nao): note のプロフィールURLが決まったら次の行のコメントを外し、URLを差し替えてください
+    ・<a href="https://note.com/＜あなたのユーザー名＞">note</a>
+    -->
+  </p>
+</header>
+
+<h2>財務・市場分析ダッシュボード<span class="en">Financial &amp; Market Dashboards</span></h2>
+<div class="grid">
+
+  <a class="card" href="https://naohisastry.github.io/japan-tv-networks-financial-dashboard/">
+    <div class="period">FY2015 – FY2026</div>
+    <h3>日本の民放キー局 財務分析ダッシュボード</h3>
+    <p>日本テレビHD・テレビ朝日HD・TBS HD・テレビ東京HD・フジメディアHDの10年間の収益構成の変化を、放送・デジタル広告・コンテンツIP・不動産・ウェルネスの7区分で可視化。</p>
+    <div class="tags"><span class="tag">民放キー局</span><span class="tag">収益構造</span><span class="tag">10年推移</span></div>
+  </a>
+
+  <a class="card" href="https://naohisastry.github.io/japan-commercial-tv-shift-2035/">
+    <div class="period">FY2015 – FY2035</div>
+    <h3>TV-Shift 2035：民放5社 収益構造転換シミュレーション</h3>
+    <p>地上波リニア広告から、TVer／SVOD、グローバルIPライセンス、非放送事業へ。20年スパンの収益構造の移行を、動的ベン図と時系列モデルでシミュレーション。</p>
+    <div class="tags"><span class="tag">将来予測</span><span class="tag">TVer / SVOD</span><span class="tag">IPライセンス</span></div>
+  </a>
+
+  <a class="card" href="https://naohisastry.github.io/media-ip-financial-dashboard/">
+    <div class="period">2024 – 2025</div>
+    <h3>メディア &amp; IP 財務コスト構造ダッシュボード</h3>
+    <p>民放キー局5社、国内メガIP（東映・東宝）、ハリウッド主要スタジオ、Super Indies、グローバル配信の計15社について、コンテンツ投資額と固定費比率の関係を比較。</p>
+    <div class="tags"><span class="tag">コスト構造</span><span class="tag">固定費比率</span><span class="tag">15社比較</span></div>
+  </a>
+
+  <a class="card" href="https://naohisastry.github.io/global-mega-studios-dashboard/">
+    <div class="period">2015 – 2025</div>
+    <h3>グローバル・メガスタジオ (Super-Indies) 財務分析</h3>
+    <p>Banijay・Fremantle・ITV Studios・BBC Studios・Mediawan・All3Mediaの売上推移、EBITA／EBITDAマージン、受託・自社IP・カタログの構成比、M&amp;Aによる成長要因を可視化。</p>
+    <div class="tags"><span class="tag">Super Indies</span><span class="tag">M&amp;A</span><span class="tag">欧州スタジオ</span></div>
+  </a>
+
+  <a class="card" href="https://naohisastry.github.io/global-smart-tv-market-dashboard/">
+    <div class="period">2015 – 2025</div>
+    <h3>世界のスマートテレビ / Connected TV 市場ダッシュボード</h3>
+    <p>Samsung・TCL・Hisense・LG・Xiaomiの出荷台数推移、Google TV・Tizen・Fire TV・webOS・Rokuの到達規模、北米・欧州・日本の接続OSシェアを比較。</p>
+    <div class="tags"><span class="tag">Connected TV</span><span class="tag">TV OS</span><span class="tag">出荷台数</span></div>
+  </a>
+
+</div>
+
+<h2>キャリア・ツール<span class="en">Career Tools</span></h2>
+<div class="grid">
+  <a class="card" href="https://naohisastry.github.io/proactive-career-diagnosis/">
+    <div class="period">診断ツール</div>
+    <h3>提案型転職 5タイプ価値観診断</h3>
+    <p>「求人票に自分を合わせるな。いままでの経験で『役割』をつくる。」10問のシナリオ設問から、自分の提案スタイルと強み構造を可視化する価値観診断ツール。</p>
+    <div class="tags"><span class="tag">キャリア</span><span class="tag">ミドルシニア</span><span class="tag">診断ツール</span></div>
+  </a>
+</div>
+
+<!-- TODO(Nao): note の連載URLを設定したら、このセクションのコメントを外して公開してください。
+     note 側からもこのページへリンクを張ると、相互リンクとして最も効果があります。
+<h2>関連する発信<span class="en">Writing</span></h2>
+<div class="note-box">
+  <p>各ダッシュボードの背景にある問題意識や、業界構造の読み解きについては
+  <a href="https://note.com/＜あなたのユーザー名＞">note</a> で連載しています。</p>
+</div>
+-->
+
+<footer>
+  © 2026 Naohisa Hashimoto ・
+  掲載データは各社の有価証券報告書、決算説明資料、SEC Form 10-K 等の公表資料にもとづき集計したものです。
+  <br>
+  <a href="https://github.com/naohisastry">github.com/naohisastry</a>
+</footer>
+
+</div>
+</body>
+</html>
