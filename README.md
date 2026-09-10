@@ -1,8 +1,10 @@
 # naohisastry.github.io
 
-メディア産業の財務・市場分析ダッシュボード集のポータルサイトです。
+メディア産業および暗号資産・金融インフラの財務・市場分析ダッシュボード集のポータルサイトです。
 
 **公開URL: https://naohisastry.github.io/**
+
+[![Portal Preview](social-preview.png)](https://naohisastry.github.io/)
 
 ## 役割
 
@@ -14,9 +16,10 @@
 
 | ファイル | 役割 |
 |---|---|
-| `index.html` | ハブページ本体（単一ファイル・依存なし） |
+| `index.html` | ハブページ本体（単一ファイル・依存なし・OGP対応） |
+| `social-preview.png` | 1200x630 OGP/Twitter Card ソーシャルプレビューサムネイル |
 | `robots.txt` | クロール許可と sitemap の所在通知 |
-| `sitemap.xml` | 全7URL（ポータル + 6ダッシュボード） |
+| `sitemap.xml` | 全8URL（ポータル + 7ダッシュボード） |
 
 ## 公開手順
 
