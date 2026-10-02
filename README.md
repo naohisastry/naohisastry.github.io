@@ -33,3 +33,12 @@
 - Google Search Console に `https://naohisastry.github.io/` を登録し、`sitemap.xml` を送信
 - note のプロフィールおよび各記事から本ページへリンクを張る
 - `index.html` 内の `TODO(Nao)` コメント2箇所に note のURLを設定
+
+## 📄 License / ライセンス
+
+- **Code**（HTML / CSS / JavaScript）: [MIT License](LICENSE)
+- **Content**（文章・図表・分析結果・整理済みデータ）: [CC BY 4.0](LICENSE-CONTENT.md)
+- 出典表示例 / Attribution: Naohisa Hashimoto, "naohisastry.github.io", https://naohisastry.github.io/
+- 第三者の元データの権利は各発行元に帰属します。 / Third-party source data remain the property of their original publishers.
+
+© 2026 Naohisa Hashimoto
