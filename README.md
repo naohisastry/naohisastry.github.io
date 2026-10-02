@@ -34,6 +34,16 @@
 - note のプロフィールおよび各記事から本ページへリンクを張る
 - `index.html` 内の `TODO(Nao)` コメント2箇所に note のURLを設定
 
+## ⚠️ 削除してはいけないファイル
+
+`google824a75d73b7dca81.html` は Google Search Console の所有権確認ファイルです。
+Google は定期的に再チェックするため、**削除すると所有権が失われ、検索パフォーマンスのデータが見られなくなります。**
+
+- 確認方法: HTMLファイル
+- 確認日: 2026-09-02
+- プロパティ: https://naohisastry.github.io/ （URLプレフィックス）
+- 登録アカウント: naohisastry@gmail.com
+
 ## 📄 License / ライセンス
 
 - **Code**（HTML / CSS / JavaScript）: [MIT License](LICENSE)
