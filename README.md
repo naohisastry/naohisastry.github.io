@@ -19,7 +19,7 @@
 | `index.html` | ハブページ本体（単一ファイル・依存なし・OGP対応） |
 | `social-preview.png` | 1200x630 OGP/Twitter Card ソーシャルプレビューサムネイル |
 | `robots.txt` | クロール許可と sitemap の所在通知 |
-| `sitemap.xml` | 全12URL（ポータル + 11ダッシュボード） |
+| `sitemap.xml` | 全13URL（ポータル + 12ダッシュボード） |
 
 ## 公開手順
 
